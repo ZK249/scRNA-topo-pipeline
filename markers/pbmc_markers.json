@@ -1,0 +1,46 @@
+{
+  "T cells": {
+    "markers": ["CD3D", "CD3E", "CD2"],
+    "positive": true,
+    "subtypes": {
+      "CD4 T cells": {
+        "markers": ["CD4", "IL7R", "CCR7"],
+        "note": "naive/memory CD4"
+      },
+      "CD8 T cells": {
+        "markers": ["CD8A", "CD8B", "GZMB"],
+        "note": "cytotoxic"
+      }
+    }
+  },
+  "B cells": {
+    "markers": ["CD79A", "MS4A1", "CD19", "CD74"],
+    "positive": true
+  },
+  "NK cells": {
+    "markers": ["NKG7", "GNLY", "KLRD1", "NCAM1"],
+    "positive": true
+  },
+  "Monocytes": {
+    "markers": ["CD14", "LYZ", "S100A9", "FCGR3A"],
+    "positive": true,
+    "subtypes": {
+      "CD14+ Monocytes": {
+        "markers": ["CD14", "LYZ", "S100A9"],
+        "note": "classical"
+      },
+      "FCGR3A+ Monocytes": {
+        "markers": ["FCGR3A", "MS4A7", "CD16"],
+        "note": "non-classical"
+      }
+    }
+  },
+  "Dendritic cells": {
+    "markers": ["FCER1A", "CST3", "CLEC10A"],
+    "positive": true
+  },
+  "Platelets": {
+    "markers": ["PPBP", "PF4", "GP9", "GNG11"],
+    "positive": true
+  }
+}
